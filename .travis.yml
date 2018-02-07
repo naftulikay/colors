@@ -1,0 +1,14 @@
+---
+dist: trusty
+
+language: ruby
+
+python:
+  - 2.7
+  - 3.4
+
+rvm:
+  - 1.9.2
+
+script:
+  - make -sC src/bash test
